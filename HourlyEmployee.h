@@ -4,13 +4,17 @@
 #include "Employee.h"
 
 class HourlyEmployee : public Employee {
-public:
-    double payPerHour;
-    double workedHours;
+    private:
+        double payPerHour;
+        double workedHours;
+    public:
+        HourlyEmployee(); //constructor default
+        HourlyEmployee(const string& name, int id, double payPerHour, double workedHours); // constructor por parámetro
 
-    HourlyEmployee(const std::string& name, int id, double payPerHour, double workedHours);
-
-    double calculatePay() const override;
+        double calculatePay() const override; 
+    
+        double getPayPerHour() const;
+        double getWorkedHours() const;
 };
 
 #endif
