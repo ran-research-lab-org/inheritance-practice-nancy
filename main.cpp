@@ -40,8 +40,8 @@ int main() {
     /* TODO: Define two vectors: HourlyEmployee and SalariedEmployee */
 
     // TODO: Add vectors to readFile call, hourly first
-    readFile("employee_info.csv", , );
-    double result = 0;
+    //readFile("employee_info.csv", , );
+    //double result = 0;
 
     // TODO: Print the results
     // Remember that you can use the range based for loop
