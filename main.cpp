@@ -38,10 +38,13 @@ void readFile(const string& filename, vector<HourlyEmployee>& hourlyEmployees, v
 int main() {
     
     /* TODO: Define two vectors: HourlyEmployee and SalariedEmployee */
+    vector<HourlyEmployee>HourlyEmployee;     //sintaxis vector <tipo> nombre;
+    vector<salariedEmployees>salariedEmployees;
 
     // TODO: Add vectors to readFile call, hourly first
-    //readFile("employee_info.csv", , );
-    //double result = 0;
+    readFile("employee_info.csv",hourlyEmployees ,salariedEmployees );
+  
+    double result = 0;
 
     // TODO: Print the results
     // Remember that you can use the range based for loop
